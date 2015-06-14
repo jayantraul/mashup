@@ -52,7 +52,15 @@ class LinkedList<T:Equatable>
     
     func delete(value: T)
     {
-        
+        if self.head.value == value
+        {
+            self.head = self.head.next!
+        }
+        if self.head.value != nil
+        {
+            var node = self.head
+            var previousNode = 
+        }
     }
 }
 
